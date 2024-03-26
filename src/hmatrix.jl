@@ -569,7 +569,7 @@ end
                 seriesalpha --> 1 / compression_ratio(block.data)
             else
                 fillcolor --> :red
-                seriesalpha --> 0.3
+                seriesalpha --> 1.0
             end
             pt1 = pivot(block)
             pt2 = pt1 .+ size(block) .- 1
